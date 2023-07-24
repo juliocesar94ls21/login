@@ -1,0 +1,27 @@
+<body>
+    <div class="container homePage">
+        <h1>Ola {nome}, você está logado(a)</h1>
+        <form method="post">
+            <div class="unwrapp-loged-inputs">
+                <div class="unwhapp-update-inp">
+                    <i class="fa-solid fa-user"></i> <input type="text" name="nome" autofocus value="{nome}" />
+                </div>
+                <div class="unwhapp-update-inp">
+                <i class="fa-solid fa-envelope"></i> <input type="email" name="email" value="{email}" />
+                </div>
+                <div class="unwhapp-update-inp">
+                <i class="fa-solid fa-lock"></i> <input type="password" name="senha" value="{password}" />
+                </div>
+            </div>
+            <div class="unwrapp-form row">
+                <div class="col-md-6">
+					<button class="btn-secondary-form btn-updt" type="submit">Atualizar</button>
+				</div>
+				<div class="col-md-6">
+					<span class="btn-secondary-form btn-logout span-button"><a href="logout.php">Sair</a></span>
+				</div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

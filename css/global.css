@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 814px) {
+    .container-page{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color: #e7e7e7;
+    }   
+    .container-login{
+        width: 813px;
+        height: 450px;
+        background-color: #fff;
+        margin: 0 auto;
+        box-shadow: 0px 0px 10px 8px #bdbcbc;
+        overflow: hidden;
+    }
+    .unwrapp-loged-inputs{
+        width: 400px;
+        margin: 60px auto;
+    }
+    .unwrapp-form{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 813px){
+    .container-login{
+        width: 100%;
+        height: 500px;
+        background-color: #fff;
+        padding: 20px 30px;
+    }   
+    .walppaper{
+        display: none;
+    }
+    .unwhapp-buttons .col-md-6, .unwhapp-btn-submit .col-md-6{
+        padding: 0;
+    }
+    .btn-secondary-form, .button-shape{
+        margin-top: 20px;
+    }
+    .unwrapp-loged-inputs{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .unwrapp-form{
+        width: 100%;
+    }
+}
+.container-login .col-md-6:last-child{
+    padding: 0;
+}
+.unwrapp-loged-inputs{
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.unwrapp-form{
+    margin: 0 auto;
+}
+.btn-updt{
+    background-color: rgb(77, 207, 116);
+    color: #fff;
+}
+.btn-logout{
+    background-color: #af3d32;
+    color: #fff;
+}
+.unwhapp-update-inp{
+    border-bottom: 1px solid #ccc;
+}
+.unwhapp-update-inp i{
+    padding: 15px;
+    background-color: aliceblue;
+    border-right: 1px solid #ccc;
+    width: 46px;
+}
+.unwhapp-update-inp input{
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.img-walppaper{
+    max-width: 100%;
+    height: 100%;
+}
+.whapper-forms{
+    padding: 1.5em 1.2em;
+}
+.logo-hd{
+    width: 15px;
+    height: 15px;
+}
+.unwhapp-logo span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.desc-forms{
+    font-size: 12px;
+    color: #747474;
+}
+.button-shape{
+    padding: 8px 0px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+}
+.button-shape i{
+    font-size: 15px;
+    margin-right: 8px;
+}
+.btn-fb{
+    background-color: #0674e7;
+}
+.btn-fb:hover{
+    background-color: #085bb3;
+    transition: all ease-in-out 0.3s;
+}
+.btn-gg:hover{
+    background-color: #af3d32;
+    transition: all ease-in-out 0.3s;
+}
+.btn-gg{
+    background-color: #dc4e41;
+}
+.divide-section{
+    text-align: center;
+    margin: 1em;
+}
+.input-form-default{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+.unwhapp-input{
+    border-bottom: 1px solid #959595;
+    margin-bottom: 15px;
+}
+.unwhapp-input i{
+    margin-right: 10px;
+}
+.unwhapp-form span{
+    font-size: 12px;
+    color: #727374;
+}
+.unwhapp-btn-submit{
+    margin-top: 40px;
+}
+.btn-secondary-form{
+    border: none;
+    padding: 10px 0px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 25px;
+}
+.span-button{
+    padding: 15px 80px !important;
+}
+.homePage form .unwrapp-form .col-md-6{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+}
+.btn-entry{
+    background-color: #000;
+    color: #fff;
+}
+.btn-secondary-form:hover, .span-button:hover{
+    background-color: #fff;
+    border:1px solid #d4d4d4;
+    color: #747474;
+    transition: all ease-in-out 0.1s;
+}
+.btn-cad{
+    background-color: #d4d4d4;
+    color: #747474;
+}
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+}
+#input-lembrar{
+    position: relative;
+    top: 2px;
+}
+.badge-sucess, .badge-error{
+    width: fit-content;
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+}
+.hide-display{
+    display: none !important;
+}
+.btn-entry i{
+    position: relative;
+    right: 10px;
+}
+.btn-logout a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-logout a:hover{
+    color: #222;
+}
+.icon-eye-pass{
+    float: right;
+    cursor: pointer;
+    color: #727374;
+}
+.icon-eye-pass:hover{
+    color: #333333;
+}
